@@ -171,11 +171,11 @@ li {
   }
 
   .header h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   p, li {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.55;
   }
 
@@ -194,7 +194,7 @@ li {
 
   .footer-inner {
     padding: 12px 16px;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .legal {
@@ -203,8 +203,9 @@ li {
 
   .legal p,
   .legal li {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
+
 
 
