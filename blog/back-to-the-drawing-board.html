@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Back to the Drawing Board — Regular Lab</title>
+    <meta
+      name="description"
+      content="Why we started Regular Lab and what we're working toward."
+    />
+    <meta name="author" content="Regular Lab" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="Back to the Drawing Board — Regular Lab" />
+    <meta
+      property="og:description"
+      content="Why we started Regular Lab and what we're working toward."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://regularlab.ai/blog/back-to-the-drawing-board.html" />
+    <meta property="og:image" content="https://regularlab.ai/logo.png" />
+
+    <link rel="icon" href="../favicon.ico" />
+    <link rel="icon" type="image/png" sizes="48x48" href="../favicon-48.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png" />
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <site-header></site-header>
+
+      <article class="blog-post">
+        <a href="../blog.html" class="blog-back">&larr; Blog</a>
+        <h1>Back to the Drawing Board</h1>
+        <div class="blog-date">April 23, 2026</div>
+
+        <p>
+          Looking back at the last 10 years of progress in artificial intelligence is fascinating. Go, chess, Atari, even complex strategy games 
+          like DotA — one by one, they fell to machines. Then came text translation, text generation, image generation, even video. It seems like 
+          you can throw anything at AI and it will figure it out. Self-driving cars, coding agents — it feels like AGI is around the corner.
+        </p>
+        <p>
+          Yet there are some gaps and asterisks:
+          <br>Most game environments rely on heavily engineered states or wrappers. The full game of DotA wasn’t exactly solved, and the same goes 
+          or other strategic games. Poker was only partially solved, often with more “traditional” methods rather than modern AI. Outside of games, 
+          the cracks are even more visible. LLMs hallucinate. Coding agents can fail at simple tasks. Robotics mostly lives in labs. Self-driving 
+          is still “almost there” — but not quite, and not truly end-to-end.
+        </p>
+        <p>
+          The current state of AI tries to tell a story that patchwork brilliance is a way to go — performing extremely well in some cases and 
+          terribly in others is somehow good enough.
+        </p>
+        <p>
+          We don’t think it is. These gaps aren’t just edge cases that need some polishing — they point to something more fundamental. They suggest 
+          we’re still missing important pieces, likely at a fairly low level.
+        </p>
+        <p>
+          So we aren’t after AGI (at least not right now). We want to go back to the drawing board and revisit problems that were left behind — 
+          games and environments where current approaches didn’t quite work, and where the field simply moved on. We want to solve them properly, 
+          without shortcuts, and understand what it actually takes to build systems that are robust, general, and reliable. Only then do we scale 
+          up — toward real-world problems, with the goal of solving them fully, not just “well enough”.
+        </p>
+        <p>
+          Our starting point is to build systems that learn their environment, develop robust world models, and can plan and make decisions. 
+          Systems that don’t rely on hacks like hand-engineered states and heuristics, or on memorizing context instead of building meaningful 
+          representations. Only then can they receive strong feedback signals from the real world, adapt their representations, evolve their behavior, 
+          and achieve meaningful goals.
+        </p>
+      </article>
+    </div>
+
+    <site-footer></site-footer>
+    <script src="../components.js"></script>
+  </body>
+</html>
