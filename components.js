@@ -1,7 +1,7 @@
 document.querySelector('site-header').outerHTML = `
   <div class="header">
     <a href="/">
-      <img src="/logo.png" alt="Regular Lab" />
+      <img src="/logo-vec.svg" alt="Regular Lab" />
     </a>
   </div>`;
 

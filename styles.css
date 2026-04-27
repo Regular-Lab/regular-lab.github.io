@@ -31,7 +31,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .header img {
@@ -48,10 +48,22 @@ body {
 /* Navigation */
 .nav {
   margin-top: 60px;
+  display: flex;
+  gap: 12px;
 }
 
 .nav a {
-  margin-right: 20px;
+  margin-right: 0;
+}
+
+@media (max-width: 480px) {
+  .btn-row {
+    gap: 6px !important;
+  }
+  .btn-row a {
+    padding: 8px 14px !important;
+    font-size: 14px !important;
+  }
 }
 
 /* Description */
